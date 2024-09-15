@@ -50,6 +50,11 @@ ADD CONSTRAINT FK_Funcionario_Loja
 FOREIGN KEY (FK_Cep_Loja) REFERENCES Loja(Cep_Loja);
 GO
 
+-- Adiciona NOT NULL para FK_Cep_Loja
+ALTER TABLE Funcionario
+ALTER COLUMN FK_Cep_Loja VARCHAR(8) NOT NULL;
+GO
+
 -- Tabela Empresa
 CREATE TABLE Empresa (
     Cep_Empresa VARCHAR(8) PRIMARY KEY,
