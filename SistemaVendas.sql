@@ -52,18 +52,18 @@ GO
 
 
 -- Esse trecho cria a tabela Funcionario com as seguintes colunas:
--- Cpf_Funcionario: string de 11 caracteres como chave primária (obrigatória)
+-- Cpf_Funcionario: string de 11 caracteres como chave primária (obrigatório)
 -- Nome: string de até 80 caracteres
 -- Cargo: string de até 50 caracteres
 -- Salario: número float para o salário do funcionário (obrigatório)
 -- FK_Cep_Loja: string de 8 caracteres que é uma chave estrangeira referenciando a tabela Loja
 CREATE TABLE Funcionario (
-Cpf_Funcionario VARCHAR(11) PRIMARY KEY NOT NULL,
-Nome VARCHAR(80),
-Cargo VARCHAR(50),
-Salario FLOAT NOT NULL,
-FK_Cep_Loja VARCHAR(8),
-CONSTRAINT FK_Cep_Loja FOREIGN KEY (FK_Cep_Loja) REFERENCES Loja(Cep_Loja),
+  Cpf_Funcionario VARCHAR(11) PRIMARY KEY NOT NULL,
+  Nome VARCHAR(80),
+  Cargo VARCHAR(50),
+  Salario FLOAT NOT NULL,
+  FK_Cep_Loja VARCHAR(8),
+  FOREIGN KEY (FK_Cep_Loja) REFERENCES Loja(Cep_Loja)
 );
 GO
 
