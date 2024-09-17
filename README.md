@@ -1,4 +1,4 @@
-## Sistema de Venda 🛒 - Banco de Dados SQL Server 🗃️
+## Sistema de Venda 🛒 - Banco de Dados SQL 🗃️
 
 <p align="center">
   <!-- Contador de linguagens do GitHub -->
