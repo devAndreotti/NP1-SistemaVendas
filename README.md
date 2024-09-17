@@ -22,7 +22,7 @@ Aqui está um resumo parcial das tabelas:
 * **Loja:** Informações sobre as lojas, incluindo CEP e endereço.
 * **Produto:** Informações sobre os produtos vendidos, incluindo nome, modelo, marca, cor, valor e a loja em que estão cadastrados.
 * **Funcionário:** Informações sobre os funcionários, incluindo CPF, nome, cargo, salário e loja em que trabalham.
-* **Valor da Venda:** Informações sobre o valor total da venda, incluindo o produto, a quantidade vendida e o valor total.
+* **Valor da Venda:** Informações sobre o valor total, incluindo o produto, a quantidade vendida e o valor total.
 * **Venda:** Informações sobre as vendas, incluindo código da venda, produto vendido, loja e valor total.
 * **Cliente:** Informações sobre os clientes, incluindo CPF e nome.
 * **Nota Fiscal:** Informações sobre as notas fiscais, incluindo código da nota, cliente, produto e loja. 
